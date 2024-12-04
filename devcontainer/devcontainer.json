@@ -1,0 +1,6 @@
+{
+  "name": "Python Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.9",
+  "forwardPorts": [3000],
+  "postCreateCommand": "pip install -r requirements.txt"
+}
